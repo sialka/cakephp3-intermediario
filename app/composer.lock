@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "163c94a955a9c68b07a07d64efc0940d",
+    "content-hash": "8795f7f79217af0fe231b89972dd4ce7",
     "packages": [
         {
             "name": "aura/intl",
@@ -55,6 +55,42 @@
                 "source": "https://github.com/auraphp/Aura.Intl/tree/3.x"
             },
             "time": "2017-01-20T05:00:11+00:00"
+        },
+        {
+            "name": "cakephp-brasil/twitter-bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CakePHPBrasil/TwitterBootstrap.git",
+                "reference": "41ed062c98f4827cc9c86b8a58bf905dc302d93b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CakePHPBrasil/TwitterBootstrap/zipball/41ed062c98f4827cc9c86b8a58bf905dc302d93b",
+                "reference": "41ed062c98f4827cc9c86b8a58bf905dc302d93b",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "~3.0",
+                "php": ">=5.4.16"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "default-branch": true,
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "TwitterBootstrap\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "TwitterBootstrap plugin for CakePHP 3",
+            "support": {
+                "issues": "https://github.com/CakePHPBrasil/TwitterBootstrap/issues",
+                "source": "https://github.com/CakePHPBrasil/TwitterBootstrap/tree/master"
+            },
+            "time": "2017-03-18T22:15:22+00:00"
         },
         {
             "name": "cakephp/cakephp",
@@ -2911,6 +2947,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "cakephp-brasil/twitter-bootstrap": 20,
         "psy/psysh": 0
     },
     "prefer-stable": true,
